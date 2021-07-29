@@ -1,0 +1,16 @@
+.btn-white {
+  color: #d21033;
+  font-weight: 800;
+  line-height: 16px;
+  padding: 20px 24px;
+  background: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 48px;
+}
+
+.btn-white:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0);
+}

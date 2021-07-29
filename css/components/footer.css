@@ -1,0 +1,32 @@
+footer {
+  background-color: black;
+  color: white;
+  height: 180px;
+}
+
+footer ul {
+  padding: 0;
+  max-width: 275px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
+
+footer li {
+  display: inline-block;
+  list-style: none;
+  font-size: 30px;
+  margin: 30px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: rgb(100, 100, 100);
+}
+
+footer h2 {
+  font-size: 15px;
+  text-align: center;
+}

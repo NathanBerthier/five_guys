@@ -1,0 +1,46 @@
+.hero {
+  background: #b02025;
+  color: white;
+  height: 532px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.hero-border {
+  background-image: url('../../images/border.png');
+  background-size: contain;
+  height: 60px;
+}
+
+.hero h1{
+  font-family: Helvetica, sans-serif;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 88px;
+  width: 740px;
+  margin: 0;
+}
+
+.hero .container {
+  height: 284px;
+}
+
+.hero-burger-top {
+  width: 455px;
+  height: 235px;
+  object-fit: cover;
+  object-position: -20% 0;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 0px; right: 10px;
+}
+
+.hero-burger-bottom {
+  width: 455px;
+  height: 235px;
+  object-fit: cover;
+  object-position: -20% -20%;
+  position: absolute;
+  bottom: 0px; right: 160px;
+}

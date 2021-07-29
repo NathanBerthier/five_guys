@@ -1,0 +1,22 @@
+.card {
+  width: 320px;
+  height: 390px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  border-radius: 5px;
+  margin: 50px 0;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.card h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.card p {
+  color: rgb(165, 165, 165);
+  text-align: center;
+}
